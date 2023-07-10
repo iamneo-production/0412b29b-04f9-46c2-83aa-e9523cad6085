@@ -1,1 +1,1 @@
-desc HR_DEPARTMENT;
+select * from HR_DEPARTMENT;
