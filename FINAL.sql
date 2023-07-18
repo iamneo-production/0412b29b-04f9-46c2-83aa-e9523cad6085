@@ -23,3 +23,7 @@ SELECT "Position Title" , count(*) NO_OF_EMPLOYEES
 FROM HR_DEPARTMENT
 GROUP BY "Position Title"
 ORDER BY 2;
+
+--5) Query to count the no of employees whose period pay rate is less than 50000.
+SELECT COUNT(*) NO_OF_EMPLOYEES FROM HR_DEPARTMENT
+WHERE "Period Pay Rate"<50000;
