@@ -17,3 +17,9 @@ CREATE INDEX HR_AGENCY1 ON HR_DEPARTMENT(AGENCY);
 
 SELECT "Employee Name" FROM HR_DEPARTMENT 
 WHERE AGENCY ='ABE LINCOLN PRES LIBRARY MUS2';
+
+--4) Query to find employee's count in each position.
+SELECT "Position Title" , count(*) NO_OF_EMPLOYEES
+FROM HR_DEPARTMENT
+GROUP BY "Position Title"
+ORDER BY 2;
