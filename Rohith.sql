@@ -1,8 +1,7 @@
 --HR_DEPARTMENT TABLE :
 
 SET TIMING ON; -- to check the time taken for the query.
-DESC HR_DEPARTMEN
-T --to describe the HR_DEPARTMENT table.
+DESC HR_DEPARTMENT ; --to describe the HR_DEPARTMENT table.
 
 select * from HR_DEPARTMENT; --To fetch all the records in HR_DEPARTMENT.
 
