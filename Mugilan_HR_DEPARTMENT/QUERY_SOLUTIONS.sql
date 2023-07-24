@@ -24,7 +24,7 @@ WHERE "Position Title" = 'CONTRACTUAL WORKER' order by 1;--Elapsed:  00:00:00:05
 
 -- 3) WRITE A SQL QUERY TO LIST THE EMPLOYEE NAME WORK UNDER AGENCY ABE LINCON PRES LIBRARY  MUS2 : 
 
-SELECT "Employee Name" FROM HR_DEPARTMENT
+SELECT "Employee Name" as "ABE LINCOLN PRES LIBRARY MUS2" FROM HR_DEPARTMENT
 WHERE AGENCY = 'ABE LINCOLN PRES LIBRARY MUS2'; --Elapsed:  00:00:00:06
 
 /*To optimize the query ,create index on agency title so it return the result faster */
