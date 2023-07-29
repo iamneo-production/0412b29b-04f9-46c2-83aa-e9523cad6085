@@ -4,7 +4,8 @@
 DESC HR_DEPARTMENT;
 
 /*Fetching all the records from the HR_DEPARTMENT table*/
-Select * from HR_DEPARTMENT;
+Select "S_ID","ID","AGENCY","Agency Division","Employee Name","Position Title","Period Pay Rate","YTD Gross"
+from HR_DEPARTMENT;
 
 /*1.Write a SQL Query to find the employee count for each agency*/
 Select agency, count(*) AS NO_OF_EMPLOYEES
