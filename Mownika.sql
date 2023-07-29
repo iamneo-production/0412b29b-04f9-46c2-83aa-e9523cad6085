@@ -33,6 +33,8 @@ Select count ("Employee Name") as ASemp_with_less_periodrate
 from HR_DEPARTMENT
 where "Period Pay Rate" < 50000;
 
+/* End of Queries*/
+
 
 
 
