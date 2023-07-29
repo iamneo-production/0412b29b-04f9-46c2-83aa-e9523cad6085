@@ -7,7 +7,7 @@ DESC HR_DEPARTMENT;
 Select * from HR_DEPARTMENT;
 
 /*1.Write a SQL Query to find the employee count for each agency*/
-Select agency, count(*) NO_OF_EMPLOYEES
+Select agency, count(*) AS NO_OF_EMPLOYEES
 from HR_DEPARTMENT
 group by agency;
 
@@ -22,13 +22,13 @@ from HR_DEPARTMENT
 where Agency in ('ABE LINCOLN PRES LIBRARY MUS2');
 
 /* 4.Write a SQL Query to find the employees count in each position*/
-Select "Position Title", count("Employee Name") no_of_emp_in_eachposition
+Select "Position Title", count("Employee Name") AS no_of_emp_in_eachposition
 from HR_DEPARTMENT
 group by "Position Title"
 order by asc;
 
 /* 5.Write a SQL Query to count the number of employees whose period pay rate is less than 50000*/
-Select count ("Employee Name") emp_with_less_periodrate
+Select count ("Employee Name") as ASemp_with_less_periodrate
 from HR_DEPARTMENT
 where "Period Pay Rate" < 50000;
 
