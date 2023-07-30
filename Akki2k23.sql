@@ -1,4 +1,3 @@
--- to check the time taken for the query
 SET TIMING ON; 
 
 --to describe the data present in the HR_DEPARTMENT table
