@@ -38,6 +38,6 @@ GROUP BY "Position Title"; --Elapsed:  00:00:00:06
 
 -- Write a SQL Query to count the number of employees whose period pay rate is less than 50000
 
-SELECT COUNT(*) NO_OF_EMPLOYEES FROM HR_DEPARTMENT
+SELECT COUNT(*) as NO_OF_EMPLOYEES FROM HR_DEPARTMENT
 WHERE "Period Pay Rate" <50000 ; --Elapsed:  00:00:00:03
 
