@@ -1,3 +1,3 @@
 desc humanresource;
 
-select * from humanresource;
+-- select * from humanresource;
