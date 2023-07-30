@@ -16,7 +16,7 @@ SELECT "Employee Name" FROM HR_DEPARTMENT
 WHERE AGENCY ='ABE LINCOLN PRES LIBRARY MUS2';
 
 --4) Query to find employee's count in each position.
-SELECT "Position Title" , count(*) NO_OF_EMPLOYEES
+SELECT "Position Title" , count(*) as NO_OF_EMPLOYEES
 FROM HR_DEPARTMENT
 GROUP BY "Position Title";
 
