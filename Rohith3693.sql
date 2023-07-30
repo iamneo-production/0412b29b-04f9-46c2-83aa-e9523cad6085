@@ -15,7 +15,7 @@ WHERE "Position Title" = 'CONTRACTUAL WORKER' order by s_id asc; --Elapsed:  00:
 create  index hr_position on HR_DEPARTMENT ("Position Title");
 
 SELECT "Employee Name" AS "CONTRACTUAL WORKERS" FROM HR_DEPARTMENT
-WHERE "Position Title" = 'CONTRACTUAL WORKER' order by 1;--Elapsed:  00:00:00:05
+WHERE "Position Title" = 'CONTRACTUAL WORKER' order by s_id asc;--Elapsed:  00:00:00:05
 
 -- 3
 
