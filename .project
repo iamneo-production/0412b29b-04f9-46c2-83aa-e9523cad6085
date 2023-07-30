@@ -21,8 +21,12 @@
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
 	<filteredResources>
+<<<<<<< HEAD
 		<filter>
 			<id>1689135142931</id>
+=======
+
+>>>>>>> 8554dc405e8787b611c05aa91f9edcd2d5fb5e1c
 			<name></name>
 			<type>30</type>
 			<matcher>
