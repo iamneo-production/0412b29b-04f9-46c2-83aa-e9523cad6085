@@ -5,7 +5,10 @@ DESC HR_DEPARTMENT;
 SET TIMING ON;
 
 -- QUERY 1: Write a SQL Query to find the employee count for each agency?
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6824a7d840a9954bb70a342c77401838401d96e
 SELECT AGENCY, COUNT(*) AS NO_OF_EMPLOYEES FROM HR_DEPARTMENT
 GROUP BY AGENCY ORDER BY NO_OF_EMPLOYEES ASC; 
 -- Elapsed: 00:00:00:03
@@ -28,14 +31,20 @@ WHERE AGENCY = 'ABE LINCOLN PRES LIBRARY MUS2';
 
 
 -- QUERY 4: Write a SQL Query to find the employees count in each position?
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6824a7d840a9954bb70a342c77401838401d96e
 SELECT "Position Title", COUNT(*) AS NO_OF_EMPLOYEES FROM HR_DEPARTMENT
 GROUP BY "Position Title" ORDER BY NO_OF_EMPLOYEES ASC;
 -- Elapsed: 00:00:00:06
 
 
 -- QUERY 5: Write a SQL Query to count the number of employees whose period pay rate is less than 50000.
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6824a7d840a9954bb70a342c77401838401d96e
 SELECT count(*) AS NO_OF_EMPLOYEES FROM HR_DEPARTMENT
 WHERE "Period Pay Rate" < 50000;
 -- Elapsed: 00:00:00:03
