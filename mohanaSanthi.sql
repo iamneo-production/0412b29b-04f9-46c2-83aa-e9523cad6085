@@ -1,3 +1,5 @@
+--sql statement
+
 --1) Query to find the Employee count for Each Agency
 
 SELECT AGENCY , COUNT(*) as NO_OF_EMPLOYEES FROM HR_DEPARTMENT
