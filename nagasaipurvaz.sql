@@ -3,7 +3,7 @@
 
 desc HR_DEPARTMENT ;
 
---select * from HR_DEPARTMENT FETCH FIRST 10 ROWS ONLY ;
+select  from HR_DEPARTMENT FETCH FIRST 10 ROWS ONLY ;
 
 -- COUNTING THE NO OF EMPLOYEES IN EACH AGENCY 
 SELECT AGENCY,COUNT(*) AS NO_OF_EMPLOYEES FROM HR_DEPARTMENT GROUP BY AGENCY ORDER BY NO_OF_EMPLOYEES asc;
@@ -34,10 +34,10 @@ WHERE AGENCY = 'ABE LINCOLN PRES LIBRARY & MUS'; --Elapsed:  00:00:00:05
 -- WRITE A SQL QUERY TO FIND THE EMPLOYEES COUNT IN EACH POSITION : 
 
 SELECT "Position Title",COUNT(*) as no_of_employees FROM HR_DEPARTMENT 
-GROUP BY "Position Title" order by asc; --Elapsed:  00:00:00:06
+GROUP BY "Position Title"; --Elapsed:  00:00:00:06
 
--- Write a SQL Query to count the number of employees whose period pay rate is less than 50000 
+-- Write a SQL Query to count the number of employees whose period pay rate is less than 50000
 
 SELECT COUNT(*) as NO_OF_EMPLOYEES FROM HR_DEPARTMENT
-WHERE "Period Pay Rate" <50000 ;--Elapsed:  00:00:00:03
+WHERE "Period Pay Rate" <50000 ; --Elapsed:  00:00:00:03
 
