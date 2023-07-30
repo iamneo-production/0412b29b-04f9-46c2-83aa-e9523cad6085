@@ -5,7 +5,7 @@ GROUP BY agency
 ORDER BY agency;
 
 --2
-select * from hr_department 
+select "Employee Name" from hr_department 
 where "Position Title"='CONTRACTUAL SERVICE EMPLOYEE';
 
 --3
